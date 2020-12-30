@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CustomListenersImplementation Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Custom Listeners Test(failed)">
+    <classes>
+      <class name="customListeners_2.CustomListenersImplementation">
+        <methods>
+          <include name="loginTest"/>
+          <include name="preSetup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- customListeners_2.CustomListenersImplementation -->
+    </classes>
+  </test> <!-- Custom Listeners Test(failed) -->
+</suite> <!-- Failed suite [CustomListenersImplementation Suite] -->

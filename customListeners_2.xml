@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="CustomListenersImplementation_2 Suite">
+
+
+	<listeners>
+		<listener class-name="customListeners_captureScreenshotAfterFailureAndSendZipFile.TestListener"></listener>
+	</listeners>
+	<test name="Custom Listeners_2 Test">
+		<classes>
+			<class name="customListeners_captureScreenshotAfterFailureAndSendZipFile.CustomListenersImplementation" />
+		</classes>
+	</test>
+
+</suite> 
